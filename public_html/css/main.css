@@ -24,6 +24,11 @@ li{
     padding-left: 10px;
     padding-right: 10px;
 }
+.profile{
+    background-color: transparent;
+    border:0px;
+    color: white;
+}
 
 /**
 ================== BORDERED DIVS ==================
@@ -121,14 +126,6 @@ GRID
     border: 2px solid black;
     border-radius: 15px;
 }
-.mainitems{
-    width: 90%;
-    margin: auto;
-}
-.items{
-    margin-left: 2px;
-    margin-right: 2px;
-}
 /*
 CONTENT
 */
@@ -184,4 +181,11 @@ CONTENT TRENDING
     width: 80%;
     height: auto;
     padding: 20px;
+}
+
+/*
+================== BOOKMARK ==================
+*/
+.box-bookmark{
+    margin: 5px;
 }
