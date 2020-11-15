@@ -1,0 +1,187 @@
+/**
+================== NAVBAR ==================
+*/
+.navigasi{
+    background-color: #A69B8D;
+}
+.container-navbar{
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 80px;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #0D0D0D;
+}
+.text-brand{
+    font-size: 32px;
+}
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/**
+================== BORDERED DIVS ==================
+*/
+.bordered-form{
+    border: solid 2px;
+    border-color: black;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+.container-login{
+    width: 40%;
+    margin-top: 100px;
+}
+
+/*
+================== LOGIN/SIGN UP ==================
+*/
+.input-border{
+    border-top:  0px;
+    border-bottom: solid 2px;
+    border-right:  0px;
+    border-left:  0px;
+    border-color: black;
+}
+.input-margin{
+    margin-top: 40px;
+}
+.tombol-login{
+    color: white;
+    background-color: #A69B8D;
+    margin-top: 30px;
+}
+.tombol-login:hover{
+    color: black;
+    background-color: #A69B8D;
+    margin-top: 30px;
+}
+.black{
+    color: #8F1417;
+}
+
+/*
+================== HOMEPAGE ==================
+*/
+.pencarian{
+    height: 150px;
+    padding: 3%;
+}
+.row-pencarian{
+    margin-top: 20px;
+}
+.bar-pencarian{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.bar-trans{
+    background-color: transparent;
+}
+.items{
+    padding-top: 5px;
+}
+.items-color{
+    margin-left: 5px;
+    color: black;
+}
+h2.topp{
+    margin-left: 20px;
+}
+hr.top-news{
+    border-top: 3px solid black;
+}
+.kaki{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #A69B8D;
+    color: white;
+    padding: 9px;
+}
+/*
+GRID
+*/
+.grid-wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.mainitems{
+    width: 90%;
+    margin: auto;
+}
+.items{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/*
+CONTENT
+*/
+hr.judul-web{
+    border-top: 2px solid black;
+}
+.isi{
+    margin-left: 15px;
+    padding: 8px;
+}
+.isi-gambar{
+    padding: 8px;
+    margin-top: 10px;
+}
+.judul-web{
+    color: white;
+    margin-left: 20px;
+}
+.table-berita{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;    
+}
+.header-berita{
+    padding: 2px;
+    border: 0px solid black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+}
+hr.antar{
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid gray;
+
+}
+.container-headline{
+    height: 250px;
+}
+.kotak-headline{
+    width: 100%;
+}
+
+/*
+CONTENT TRENDING
+*/
+.trendings{
+    margin-top: 25px;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 15px;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
